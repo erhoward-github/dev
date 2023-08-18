@@ -39,7 +39,6 @@ function eh_get_response(WP_REST_Request $request)
     #return 'These are your data. . .';
     $output = $request->get_param('key2');
     return $output;
-    
 }
 
 # usage
@@ -55,6 +54,5 @@ function eh_get_response_2(WP_REST_Request $request)
         "param1" => $request->get_param('key1'),
         "param2" => $request->get_param('key2'));
     return $output;
-    
 }
 ?>
