@@ -1,0 +1,45 @@
+
+
+# https://gist.github.com/colorful-tones/9adeab19373a0b3693795f199b188c8c
+
+# ---------------------------------------------
+# WordPress general
+# ---------------------------------------------
+/ai1wm-backups
+/index.php
+/upgrade
+/upgrade-temp-backup
+/uploads
+/index.php
+
+# ---------------------------------------------
+# WordPress plugins
+# ---------------------------------------------
+/plugins/*
+
+# DO NOT ignore these plugins
+!/plugins/cma-cta-button
+!/plugins/cma-current-year
+!/plugins/cma-lead-delivery
+!/plugins/cma-upload-file
+!/plugins/eh-custom-endpoint
+!/plugins/eh-do-nothing
+
+# ---------------------------------------------
+# WordPress themes
+# ---------------------------------------------
+/themes/*
+
+# DO NOT ignore these themes
+!/themes/twentytwentythree-child
+
+!/themes/twentytwentythree-child/functions.php
+!/themes/twentytwentythree-child/style.css
+
+/themes/twentytwentythree-child/js/*
+/themes/twentytwentythree-child/css/*
+
+!/themes/twentytwentythree-child/api/*
+!/themes/twentytwentythree-child/css/dev.css
+!/themes/twentytwentythree-child/js/dev.js
+
